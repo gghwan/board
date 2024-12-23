@@ -1,0 +1,18 @@
+.ql-toolbar button.ql-drawing,
+.ql-toolbar button.ql-diagram,
+.ql-toolbar button.ql-emoji,
+.ql-toolbar button.ql-audio {
+  width: 28px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ql-toolbar button i {
+  font-size: 14px;
+}
+
+.ql-toolbar button.ql-active {
+  color: #06c;
+}
